@@ -44,7 +44,7 @@ const ProfileImg = () => {
       onLoad={(e) => (e.currentTarget.style.background = "none")}
     >
       <img
-        src="https://pbs.twimg.com/profile_images/1527562596475613184/A8beyBaP_200x200.jpg"
+        src="https://res.cloudinary.com/dhxjitf9n/image/upload/v1698425446/X%20clone/arul-prakassam.jpg"
         alt="profile"
         onClick={() => {
           setOpenAsidebar(true);
