@@ -4,7 +4,7 @@ const fetch = (...args) =>
 const fetchData = async (category) => {
   try {
     const response = await fetch(
-      `https://newsapi.org/v2/top-headlines?country=in&category=${category}`,
+      `https://newsapi.org/v2/top-headlines?country=us&category=${category}`,
       {
         headers: {
           Authorization: process.env.API_KEY,
